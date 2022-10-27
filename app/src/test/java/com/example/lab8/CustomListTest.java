@@ -68,6 +68,12 @@ public class CustomListTest {
         assertFalse(list.hasCity(test));
     }
 
+    /**
+     * create an empty cities list
+     * check that countCities returns 0
+     * add 3 mock cities to list
+     * check that countCities returns 3
+     */
     @Test
     public void countCitiesTest() {
         list = MockCityList();
